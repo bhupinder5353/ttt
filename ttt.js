@@ -6,6 +6,7 @@ let board=document.getElementById("board")
 cell.forEach(function(cell){
     cell.addEventListener("click",click)
 });
+
 function click(event){
     if(winstatus){
         return;
