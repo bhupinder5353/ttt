@@ -77,14 +77,14 @@ function click(event){
         return;
       }
     }
-    document.getElementById("message").innerHTML = "Draw";
+    document.getElementById("message").innerHTML = "DRAW";
     document.body.style.backgroundColor="red";
   }
   function announceWinner() {
     if (turn) {
-      document.getElementById("message").innerHTML = "Winner is " + "BHUPINDER";
+      document.getElementById("message").innerHTML = "Winner is " + "PLAYER1";
     } else {
-      document.getElementById("message").innerHTML = "Winner is " + "SAPRA";
+      document.getElementById("message").innerHTML = "Winner is " + "PLAYER2";
     }
     document.body.style.backgroundColor="green";
   }
