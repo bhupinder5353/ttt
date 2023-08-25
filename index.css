@@ -1,0 +1,100 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heading{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin:100px 0 0 0;
+    padding:0;
+}
+.board{
+    display: flex;
+    margin:100px 0 0 0;
+    flex-direction: column;
+}
+.box1{
+    display: flex;
+    flex-direction:row;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+}
+.box3{
+    flex-direction:row;
+    display: flex;
+}
+#a{
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#b{
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+#c{
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid black;
+    
+}
+#d{
+    height: 100px;
+    width: 100px;
+    
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+#e{
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+#f{
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid black;
+    
+}
+#g{
+    height: 100px;
+    width: 100px;
+    border-right: 1px solid black;
+}
+#h{
+    height: 100px;
+    width: 100px;
+    border-right: 1px solid black;
+}
+#i{
+    height: 100px;
+    width: 100px;
+}
+#message{
+    margin:85px 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.x {
+    background-color: #FF5733;
+    color:black; 
+}
+.circle {
+    background-color: #3498DB; 
+    color:black; 
+}
