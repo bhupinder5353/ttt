@@ -90,11 +90,32 @@
     align-items: center;
     text-align: center;
 }
-.x {
-    background-color: #FF5733;
-    color:black; 
-}
-.circle {
-    background-color: #3498DB; 
-    color:black; 
-}
+.cell.x::before {
+    content: "o";
+    display: flex;
+    flex: 0 0 33.33%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ff5733;
+    justify-content: center;
+    color: black;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+  }
+  .cell.circle::before {
+    content: "x";
+    display: flex;
+    flex: 0 0 33.33%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #3498db;
+    color: black;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+  }
